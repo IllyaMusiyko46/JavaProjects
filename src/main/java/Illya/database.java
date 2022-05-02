@@ -28,10 +28,11 @@ public class database {
         // get values from database
 
         Statement st = conn.createStatement();
+        System.out.println("PHP2");
         String sql = ("SELECT * FROM `languages` LIMIT 50");
         ResultSet rs = st.executeQuery(sql);
         if (rs.next()) {
-           System.out.println(rs.getString("PHP"));
+            System.out.println(rs.getString("PHP3"));
 
 
         }
