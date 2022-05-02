@@ -32,7 +32,7 @@ public class database {
         String sql = ("SELECT * FROM `languages` LIMIT 50");
         ResultSet rs = st.executeQuery(sql);
         if (rs.next()) {
-            System.out.println(rs.getString("PHP3"));
+            System.out.println(rs.getString("PHP4"));
 
 
         }
